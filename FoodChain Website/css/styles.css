@@ -309,11 +309,13 @@ ul.menu li:hover > ul,
 
 .full-banner {
     position: relative;
+	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('img/photo_background.jpg');
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .full-banner img {
+background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
     height: auto;
     width: 100%;
 }
